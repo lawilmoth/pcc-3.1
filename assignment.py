@@ -1,67 +1,93 @@
-def hello_world() -> str:
-    """
-    Implement a function that returns Hello World!
-    1. Delete the `raise NotImplementedError()` line
-    2. Uncomment the `return "Hello World!"` line
-    """
-    raise NotImplementedError()
+#Chapter 3: Lists
 
-    #return "Hello World!"
-
-
-def add_two(number: int) -> int:
+def return_first_element(lst: list) -> str:
     """
-    Adds two to `number`
-    You must use the number variable in your code
+    Returns the first element of the input list
+    Remember that the first element is at index 0
     """
     raise NotImplementedError()
 
 
-def convert_to_lowercase(text: str) -> str:
+def return_last_element(lst: list) -> str:
     """
-    Converts the input text to lowercase
-    You must use the text variable in your code
-    """
-    raise NotImplementedError()
-
-def convert_to_uppercase(text: str) -> str:
-    """
-    Converts the input text to uppercase
-    You must use the text variable in your code
+    Returns the last element of the input list
     """
     raise NotImplementedError()
 
-def convert_to_titlecase(text: str) -> str:
+def add_element_to_an_fsrting(lst: list) -> str:
     """
-    Converts the input text to titlecase
-    You must use the text variable in your code
-    """
-    raise NotImplementedError()
-
-def add_exclamation_mark(text: str) -> str:
-    """
-    Adds an exclamation mark to the end of the input text
-    You must use the text variable in your code
+    Access the first element of the list and return it as in the sentence
+    Modify the element so it is in title case.
+    "The first element of the list is: <element>"
     """
     raise NotImplementedError()
 
-def subtract_three_point_five(number: float) -> float:
+def change_the_first_element(lst: list) -> list:
     """
-    Subtracts 3.5 from the input number
-    You must use the number variable in your code
+    Change the first element of the list to "Python"
+    """
+    raise NotImplementedError() 
+
+def change_the_last_element(lst: list) -> list:
+    """
+    Change the last element of the list to "Spam"
     """
     raise NotImplementedError()
 
-def multiply_by_five(number: float) -> float:
+def add_element_to_the_end(lst: list) -> list:
     """
-    Multiplies the input number by 5
-    You must use the number variable in your code
+    Add the element "Eggs" to the end of the list
     """
     raise NotImplementedError()
 
-def divide_by_seven(number: float) -> float:    
+def add_element_to_the_beginning(lst: list) -> list:
     """
-    Divides the input number by 7
-    You must use the number variable in your code
+    Add the element "Eggs" to the beginning of the list
     """
     raise NotImplementedError()
+
+def remove_last_element(lst: list) -> list:
+    """
+    Remove the last element of the list
+    """
+    raise NotImplementedError()
+
+def remove_first_element(lst: list) -> tuple[list, str]:    
+    """
+    Remove the first element of the list
+    Store the value in a variable called "removed_element", and return it
+    Be sure to return the list and the removed element separated by a comma
+    Ex: return lst, removed_element
+    """
+    raise NotImplementedError()
+
+def remove_element_at_index(lst: list, index: int) -> list:
+    """
+    Remove the element at the index provided as an argument
+    """
+    raise NotImplementedError()
+
+def insert_element_at_index(lst: list, index: int, element: str) -> list:
+    """
+    Insert the element at the index provided as an argument
+    """
+    raise NotImplementedError()
+
+def remove_element_by_value(lst: list, element: str) -> list:
+    """
+    Remove the element by value
+    """
+    raise NotImplementedError()
+
+def sort_list_alphabetically(lst: list) -> list:
+    """
+    Sort the list alphabetically
+    """
+    raise NotImplementedError()
+
+def reverse_list(lst: list) -> list:
+    """
+    Reverse the list
+    """
+    raise NotImplementedError()
+
