@@ -36,7 +36,7 @@ def test_add_element_to_the_end():
 
 def test_add_element_to_the_beginning():
     lst = [1, 2, 3, 4, 5]
-    assert assignment.add_element_to_the_beginning(lst) == ["Eggs", 0, 1, 2, 3, 4, 5]
+    assert assignment.add_element_to_the_beginning(lst) == ["Eggs", 1, 2, 3, 4, 5]
 
 def test_remove_last_element():
     lst = [1, 2, 3, 4, 5]
