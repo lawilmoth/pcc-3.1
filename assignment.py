@@ -14,7 +14,7 @@ def return_last_element(lst: list) -> str:
     """
     raise NotImplementedError()
 
-def add_element_to_an_fsrting(lst: list) -> str:
+def add_element_to_an_fstring(lst: list) -> str:
     """
     Access the first element of the list and return it as in the sentence
     Modify the element so it is in title case.

@@ -17,9 +17,9 @@ def test_return_last_element():
 
 def test_add_element_to_an_fstring():
     lst = ["hello", "world"]
-    assert assignment.add_element_to_a_string(lst) == "The first element of the list is: Hello"
+    assert assignment.add_element_to_an_fstring(lst) == "The first element of the list is: Hello"
     lst = ["mr.", "Wilmoth", "Rocks"]
-    assert assignment.add_element_to_a_string(lst) == "The first element of the list is: Mr."
+    assert assignment.add_element_to_an_fstring(lst) == "The first element of the list is: Mr."
 
 
 def test_change_the_first_element():
